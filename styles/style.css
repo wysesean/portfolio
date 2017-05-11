@@ -294,6 +294,7 @@ header::before{
 }
 .grid {
 	perspective: 300px;
+	-webkit-perspective: 300px; /* Chrome, Safari, Opera */
 	width: 150vw;
 	height: 50vh;
 	position: relative;
@@ -664,7 +665,9 @@ opacity: 0;
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
+b{
+	font-weight: 900;
+}
 /* Contact Section
 ********************************************************************* */
 #contact {
