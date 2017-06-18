@@ -638,14 +638,14 @@ opacity: 0;
     margin-bottom: 1rem;
 }
 
-.caption em {
+.caption-title{
     display: block;
     color: rgba(255,255,255, 0.6);
     font-weight: 100;
     line-height: 1.4rem;
 }
 
-.caption em:last-child{
+.caption-title{
 	margin-bottom: .8rem;
 }
 
