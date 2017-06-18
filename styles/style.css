@@ -604,6 +604,11 @@ opacity: 0;
 	padding: 100px 0 100px 0;
 	background: rgba(57,57,57,.95);
 }
+
+.skill-content .center{
+	transform: translateX(34.6667%);
+}
+
 .progressBar {
 	margin-bottom: 26px;
 	margin-bottom: 1.66em;
@@ -620,29 +625,29 @@ opacity: 0;
 	background: #E1E1E1;
 	overflow: hidden;
 }
-.svg-wrapper{
-	text-align: center;
-	padding: 0;
-	border: 0;
-}
-.svg{
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	transition: .5s;
-	width: 100%;
-	max-width: 25vw;
+
+.caption {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.3rem;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
 }
 
-.svg:hover{
-	opacity: 0.6;
+.icon {
+    margin-bottom: 1rem;
 }
 
-.whitebg{
-	background: white;
-	text-align: center;
+.caption em {
+    display: block;
+    color: rgba(255,255,255, 0.6);
+    font-weight: 100;
+    line-height: 1.4rem;
 }
 
+.caption em:last-child{
+	margin-bottom: .8rem;
+}
 
 /* Portfolio Section
 ********************************************************************* */
@@ -698,20 +703,24 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-decoration: none;
 	white-space: nowrap;
-	background: rgba(224, 37, 90, 1);
-	background: linear-gradient(180deg,
-		rgba(224, 87, 90, 1) 0%,
-		rgba(224, 37, 90, 1) 100%
-	);
+	background: rgba(70,70,70,1);
 	border-radius: 0px;
 	border: 0;
 	cursor: pointer;
 	box-sizing: border-box;
-	transition: background;
+	transition: .6s;
 }
+
 input[type="submit"]:hover {
 	background: rgba(224, 37, 90, 1);
 	text-decoration: none;
+}
+
+.lighter input[type="submit"]{
+	background: rgba(224, 37, 90, .75);
+}
+.lighter input[type="submit"]:hover{
+	background: rgba(224, 37, 90, 1);
 }
 /* Footer Section
 ********************************************************************* */
